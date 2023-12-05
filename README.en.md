@@ -1,36 +1,22 @@
 # vs2qt
 
 #### Description
-vs trans to qt and so on.
 
-#### Software Architecture
-Software architecture description
+The VS Engineering Conversion Assistant will provide a sophisticated and convenient way to convert projects from Visual Studio (VS) to cross platform Qt projects.
 
-#### Installation
+The successfully converted pro file will be stored in the directory where vcxproj is located, and can be opened through QtCreator. At the same time as the project file conversion is successful, this program will also convert the encoding format of the program file, with the UTF-8 encoding.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Environment
+1.Linux System
+2.Equipped with Python 3.5 to Python 3.11 interpreters
 
-#### Instructions
+#### User Description
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Terminal commands:python3 vs2pro.py root_dir -Lxx -Ixx ...
+root_dir	The directory path where the vcxproj file is located
 
-#### Contribution
+#### Parameters
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+-I	Header file path for extension
+-L	Library file path for extension
 
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
