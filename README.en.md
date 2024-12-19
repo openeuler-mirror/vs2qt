@@ -10,7 +10,7 @@ The successfully converted pro file will be stored in the directory where vcxpro
 
 1.Linux System
 
-2.Equipped with Python 3.5 to Python 3.11 interpreters
+2.Equipped with Python 3.5 to Python 3.9 interpreters
 
 #### User Description
 
